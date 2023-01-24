@@ -1,5 +1,6 @@
+
 /* nav bar styles */
-.js-eb-font{
+.js-eb-font .js-p-font-family{
     font-family: 'EB Garamond', serif;
 
 }
@@ -15,3 +16,19 @@
     font-size: 70px;
 }
 /* bannar is ends */
+/* Practice Area styles */
+@media screen and (max-width: 576px) {
+    .js-card-mobile-responsive{
+       
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.js-Practice-font-size{
+    font-size: 45px;
+}
+
+/* Practice Area styles ends */
