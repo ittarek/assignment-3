@@ -1,34 +1,38 @@
-
+* {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
 /* nav bar styles */
-.js-eb-font .js-p-font-family{
-    font-family: 'EB Garamond', serif;
-
+.js-eb-font  {
+  font-family: "EB Garamond", serif;
 }
-.js-poppins-font{
- font-family: 'Poppins', sans-serif;
+.js-poppins-font {
+  font-family: "Poppins", sans-serif;
 }
-.js-nav-margin{
-    margin-left: 20%;
+.js-nav-margin {
+  margin-left: 20%;
 }
 /* nav bar styles is ends */
 /* bannar */
-.js-bannar-fon-size{
-    font-size: 70px;
+.js-bannar-fon-size {
+  font-size: 70px;
 }
 /* bannar is ends */
 /* Practice Area styles */
-@media screen and (max-width: 576px) {
-    .js-card-mobile-responsive{
-       
-        flex-direction: column;
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-    }
-    
+
+.js-Practice-font-size {
+  font-size: 45px;
 }
-.js-Practice-font-size{
-    font-size: 45px;
+.card-img-top {
+  margin-left: 180px;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 /* Practice Area styles ends */
+
+/* claint section styles */
+.carousel-item{
+  max-height:450px;
+}
+/* claint section styles ends*/
