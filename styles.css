@@ -33,6 +33,16 @@
 
 /* claint section styles */
 .carousel-item{
-  max-height:450px;
+  max-height: 400px;
+}
+@media screen and (max-width:576px){
+  .carusel-res {
+     font-size:10px;
+  }
+  .small-img{
+    width: 60px;
+    height:60px;
+  }
+  
 }
 /* claint section styles ends*/
