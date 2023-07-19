@@ -63,28 +63,36 @@
               </li>
             </ul>
           </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown btn-warning opacity-100 js-poppins-font"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Free Consultation
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ open modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laboriosam.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </nav>
       <!-- Bannar section -->
       <section class="mt-5">
         <div
           class="bg-image img-fluid p-5 text-center rounded text-white"
-          <!--
+       
           style="background-image: url('images/banner.png'); height: 100%; background-size: cover; background-repeat: no-repeat"
         >
           <h1 class="h1 mb-5 js-bannar-fon-size js-eb-font">
@@ -106,9 +114,9 @@
     <!-- This is main section -->
     <main>
       <!-- Practice Area section -->
-      <section class="container mt-5 mb-5">
+      <section class="hide container mt-5 mb-5">
         <div class="mt-5">
-          <h1 class="text-center mb-3 js-Practice-font-size js-eb-font">The Legal Practice Area</h1>
+          <h1 class="text-center mb-3 js-Practice-font-size js-eb-font practice-title">The Legal Practice Area</h1>
           <p class="text-center mb-5 text-secondary">
             There are many variations of passages of Lorem Ipsum available, but the majority have <br />
             suffered alteration in some form, by injected humour.
@@ -147,7 +155,7 @@
         </div>
       </section>
       <!-- clint section -->
-      <section class="container mb-5">
+      <section class="hide container mb-5">
         <div class="text-center">
           <h1 class="js-eb-font mb-3">What Our Client Say</h1>
           <p class="text-secondary mb-5">
@@ -171,7 +179,7 @@
             </div>
             <div class="carousel-inner  ">
               <div class="carousel-item active">
-                <img src="images/slider-1.jpg" class="d-block w-100 img-fluid  alt="..." />
+                <img src="images/slider-1.jpg" class="d-block w-100 img-fluid"  alt="image" />
                 <div class="carousel-caption">
                   <div>
                     <img src="images/Awoal vai.jpg" class="small-img" alt="" />
@@ -231,7 +239,7 @@
         </div>
       </section>
       <!-- Questions section -->
-      <section class="container mb-5">
+      <section class="container my-5 mb-5 Questions-section">
         <div class="text-center">
           <h1 class="mb-3 js-eb-font">Frequently Asxed Any Questions</h1>
             <p class="mb-4 text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have <br>
@@ -296,19 +304,19 @@
         </div>
       </section>
       <!-- Extra section -->
-      <section class="container text-start text-md-center mb-5">
-        <h1>Faverite Low book</h1>
-        <p>Best Low  suggestion</p>
-        <hr class="w-25 mx-auto border-danger" />
+      <section class="container text-start text-md-center my-5 extra-section">
+        <h1 class="text-center">Faverite Low book</h1>
+        <p class="text-center">Best Low  suggestion</p>
+        
         <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3 px-5">
-          <div class="col">
-            <img class="w-75" src="images/masque.jfif" alt="">
+          <div class="col  ">
+            <img class="w-75 ms-5 px-auto" src="images/masque.jfif" alt="">
           </div>
           <div class="col">
-            <img class="w-100" src="images/quran.jfif" alt="">
+            <img class="w-100 " src="images/quran.jfif" alt="">
           </div>
           <div class="col">
-            <img class="w-75" src="images/justic quran.jpeg" alt="">
+            <img class="w-75 ms-5" src="images/justic quran.jpeg" alt="">
           </div>
          
          
@@ -316,9 +324,9 @@
       </section>
     </main>
     <!-- This is footer -->
-    <footer class="container-fluid bg-black p-5">
+    <footer class="container-fluid bg-black p-5 resposive ">
    
-        <div class=" text-center">
+        <div class="row text-center">
           <div class="row  row-cols-sm-1 row-cols-mb-2 row-cols-lg-4 ">
             <div >
               <img src="images/logo2.png" class="text-light mb-3 mt-4" alt="" />

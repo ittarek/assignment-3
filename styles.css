@@ -1,4 +1,6 @@
 * {
+  margin: 0px;
+  padding: 0px;
   font-family: "EB Garamond", serif;
   font-family: "Poppins", sans-serif;
 }
@@ -35,14 +37,27 @@
 .carousel-item{
   max-height: 400px;
 }
-@media screen and (max-width:576px){
-  .carusel-res {
-     font-size:10px;
-  }
-  .small-img{
-    width: 60px;
-    height:60px;
-  }
-  
-}
+
 /* claint section styles ends*/
+/* *{
+  outline: 1px solid green;
+  } */
+  .practice-title{
+    overflow: hidden;
+   
+  }
+  .hide{
+    display: none;
+  }
+
+  @media screen and (max-width:576px){
+    .carusel-res {
+       font-size:10px;
+    }
+    .small-img{
+      width: 60px;
+      height:60px;
+    }
+    
+  }
+
